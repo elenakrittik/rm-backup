@@ -2,9 +2,17 @@
 name = "rm-backup"
 version = "0.1.0"
 edition = "2021"
+
+authors = ["elenakrittik <dev.elenakrittik@gmail.com>"]
+categories = ["command-line-utilities"]
+description = "A minimal command line tool to backup any files you `rm`."
+keywords = ["cli", "rm", "backup", "utility"]
+license = "MIT OR Apache-2.0"
+readme = "README.md"
 repository = "https://github.com/elenakrittik/rm-backup"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[badges]
+maintenance = { status = "passively-maintained" }
 
 [dependencies]
 anyhow = "1.0.75"
