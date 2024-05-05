@@ -2,6 +2,9 @@
 
 A minimal command line tool to backup any files you `rm`.
 
+> [!WARNING]
+> This tool works as intended, but you should still consider using [trasher](https://lib.rs/trasher) instead.
+
 ## Installation
 
 Use `cargo install rm-backup`, or `binstall` if you have it.
